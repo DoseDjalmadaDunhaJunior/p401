@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P401.dir/main.cpp.o CMakeFiles/P401.dir/Algo.cpp.o  -o P401 

@@ -1,0 +1,3 @@
+/home/djalma/Desktop/sexto_semestre/Compiladores/P401/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/djalma/Desktop/sexto_semestre/Compiladores/P401/cmake-build-debug/CMakeFiles/P401.dir
+/home/djalma/Desktop/sexto_semestre/Compiladores/P401/cmake-build-debug/CMakeFiles/edit_cache.dir
