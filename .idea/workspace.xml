@@ -13,6 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="91005360-7c26-4cdb-b40d-2931d4e8a911" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P401.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P401.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,8 +71,16 @@
       <option name="presentableId" value="Default" />
       <updated>1571956175778</updated>
       <workItem from="1571956178264" duration="4576000" />
-      <workItem from="1572031693325" duration="3337000" />
+      <workItem from="1572031693325" duration="5217000" />
     </task>
+    <task id="LOCAL-00001" summary="ate então para os casos mais simples e individualmente como 5+7 ele esta funcionando perfeitamente">
+      <created>1572035098430</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572035098431</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,20 +99,8 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>138</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>100</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ate então para os casos mais simples e individualmente como 5+7 ele esta funcionando perfeitamente" />
+    <option name="LAST_COMMIT_MESSAGE" value="ate então para os casos mais simples e individualmente como 5+7 ele esta funcionando perfeitamente" />
   </component>
 </project>

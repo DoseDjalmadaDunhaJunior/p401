@@ -16,7 +16,6 @@ public:
     int vN = 0;
     char* ver;
     bool prio = false;
-    string Tes[tam];
 
     char* imprime(){
         if(true){
@@ -34,39 +33,32 @@ public:
         vN++;
     }
 
-    char desempilhaN() {
-        int a = vN;
-        vN--;
-        imprime();
-        return piN[a];
-    }
-
     void desempilhaGeral(){
         if(pimm[0] == '+'){
             printf("LDA %c\n"
                    "ADA %c\n"
-                   "STA T%i\n", piN[0],piN[1],tamanhoT+1);
+                   "STA T%i\n\n", piN[0],piN[1],tamanhoT+1);
             vN = 0;
             mm--;
         }
         else if(pimm[0] == '-'){
             printf("LDA %c\n"
                    "SUB %c\n"
-                   "STA T%i\n", piN[0],piN[1],tamanhoT+1);
+                   "STA T%i\n\n", piN[0],piN[1],tamanhoT+1);
             vN = 0;
             mm--;
         }
         else if((mm == 1) && (pimm[0] == '*')){
             printf("LDA %c\n"
                    "MUL %c\n"
-                   "STA T%i\n", piN[0],piN[1],tamanhoT+1);
+                   "STA T%i\n\n", piN[0],piN[1],tamanhoT+1);
             vN = 0;
             mm--;
         }
         else if((mm == 1) && (pimm[0] == '/')){
             printf("LDA %c\n"
                    "DIV %c\n"
-                   "STA T%i\n", piN[0],piN[1],tamanhoT+1);
+                   "STA T%i\n\n", piN[0],piN[1],tamanhoT+1);
             vN = 0;
             mm--;
         }
@@ -137,6 +129,10 @@ private:
 
     void conta(){
         char ver = txt[po];
+        if(txt[po] == ')'){
+            po++;
+        }
+
         if(!prio && vN == 2){
             desempilhaGeral();
         }
@@ -166,7 +162,8 @@ private:
         }
         else if(txt[po] == '('){
             Operacao op;
-            //op.conta(txt,po);
+            po++;
+            op.conta(txt,po,tamanhoT);
 
         }
         if(txt[po] == 0){
@@ -183,7 +180,7 @@ private:
 
 int main() {
     Operacao oi;
-    char* tt = "5/7";
+    char* tt = "8+(5-7)-4";
     oi.conta(tt,0,0);
     return 0;
 }
