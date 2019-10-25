@@ -11,9 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91005360-7c26-4cdb-b40d-2931d4e8a911" name="Default Changelist" comment="">
+    <list default="true" id="91005360-7c26-4cdb-b40d-2931d4e8a911" name="Default Changelist" comment="para casos simples ainda imprime certinho, porem agora tambem imprime mais casos (quando colocamos chaves), porem esse ultimo fica mal formatado ainda">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P401.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P401.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P401.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P401.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/P401" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/P401" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1571956175778</updated>
       <workItem from="1571956178264" duration="4576000" />
-      <workItem from="1572031693325" duration="5217000" />
+      <workItem from="1572031693325" duration="5837000" />
     </task>
     <task id="LOCAL-00001" summary="ate então para os casos mais simples e individualmente como 5+7 ele esta funcionando perfeitamente">
       <created>1572035098430</created>
@@ -80,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572035098431</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="para casos simples ainda imprime certinho, porem agora tambem imprime mais casos (quando colocamos chaves), porem esse ultimo fica mal formatado ainda">
+      <created>1572036983510</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572036983510</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +109,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ate então para os casos mais simples e individualmente como 5+7 ele esta funcionando perfeitamente" />
-    <option name="LAST_COMMIT_MESSAGE" value="ate então para os casos mais simples e individualmente como 5+7 ele esta funcionando perfeitamente" />
+    <MESSAGE value="para casos simples ainda imprime certinho, porem agora tambem imprime mais casos (quando colocamos chaves), porem esse ultimo fica mal formatado ainda" />
+    <option name="LAST_COMMIT_MESSAGE" value="para casos simples ainda imprime certinho, porem agora tambem imprime mais casos (quando colocamos chaves), porem esse ultimo fica mal formatado ainda" />
   </component>
 </project>

@@ -66,8 +66,6 @@ public:
 
         }
 
-
-
     }
 
     void empilhaMM(char o) {
@@ -82,7 +80,7 @@ public:
         return pimm[a];
     }
 
-    void conta(char* str,int p,int size) {
+    int conta(char* str,int p,int size) {
         if(po == 1){
 
         }
@@ -123,11 +121,12 @@ public:
         if(vN >0 || mm > 0){
             conta();
         }
+        return tamanhoT;
     }
 
 private:
 
-    void conta(){
+    int conta(){
         char ver = txt[po];
         if(txt[po] == ')'){
             po++;
@@ -173,6 +172,7 @@ private:
             conta();
         }
 
+        return tamanhoT;
     }
 
 };
@@ -180,7 +180,7 @@ private:
 
 int main() {
     Operacao oi;
-    char* tt = "8+(5-7)-4";
+    char* tt = "3*(5-2+6-(3*5)+1)-2";
     oi.conta(tt,0,0);
     return 0;
 }
