@@ -60,28 +60,28 @@ include CMakeFiles/P401.dir/flags.make
 CMakeFiles/P401.dir/main.cpp.o: CMakeFiles/P401.dir/flags.make
 CMakeFiles/P401.dir/main.cpp.o: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/djalma/Desktop/sexto_semestre/Compiladores/P401/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/P401.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/P401.dir/main.cpp.o -c /home/djalma/Desktop/sexto_semestre/Compiladores/P401/main.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/P401.dir/main.cpp.o -c /home/djalma/Desktop/sexto_semestre/Compiladores/P401/main.cpp
 
 CMakeFiles/P401.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/P401.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/djalma/Desktop/sexto_semestre/Compiladores/P401/main.cpp > CMakeFiles/P401.dir/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/djalma/Desktop/sexto_semestre/Compiladores/P401/main.cpp > CMakeFiles/P401.dir/main.cpp.i
 
 CMakeFiles/P401.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/P401.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/djalma/Desktop/sexto_semestre/Compiladores/P401/main.cpp -o CMakeFiles/P401.dir/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/djalma/Desktop/sexto_semestre/Compiladores/P401/main.cpp -o CMakeFiles/P401.dir/main.cpp.s
 
 CMakeFiles/P401.dir/Algo.cpp.o: CMakeFiles/P401.dir/flags.make
 CMakeFiles/P401.dir/Algo.cpp.o: ../Algo.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/djalma/Desktop/sexto_semestre/Compiladores/P401/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/P401.dir/Algo.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/P401.dir/Algo.cpp.o -c /home/djalma/Desktop/sexto_semestre/Compiladores/P401/Algo.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/P401.dir/Algo.cpp.o -c /home/djalma/Desktop/sexto_semestre/Compiladores/P401/Algo.cpp
 
 CMakeFiles/P401.dir/Algo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/P401.dir/Algo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/djalma/Desktop/sexto_semestre/Compiladores/P401/Algo.cpp > CMakeFiles/P401.dir/Algo.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/djalma/Desktop/sexto_semestre/Compiladores/P401/Algo.cpp > CMakeFiles/P401.dir/Algo.cpp.i
 
 CMakeFiles/P401.dir/Algo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/P401.dir/Algo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/djalma/Desktop/sexto_semestre/Compiladores/P401/Algo.cpp -o CMakeFiles/P401.dir/Algo.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/djalma/Desktop/sexto_semestre/Compiladores/P401/Algo.cpp -o CMakeFiles/P401.dir/Algo.cpp.s
 
 # Object files for target P401
 P401_OBJECTS = \
